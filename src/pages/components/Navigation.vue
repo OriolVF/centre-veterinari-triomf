@@ -116,7 +116,6 @@
           <template slot="navbar-menu">
             <li class="nav-item active">
               <a class="nav-link" href="#pablo">
-                <i class="now-ui-icons objects_globe"></i>
                 <p>Discover</p>
               </a>
             </li>

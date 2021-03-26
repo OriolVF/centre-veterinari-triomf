@@ -2,24 +2,43 @@
   <navbar position="fixed" type="primary" menu-classes="ml-auto">
     <template>
       <router-link v-popover:popover1 class="navbar-brand" to="/presentation">
-        My Site Name
+        Centre Veterinari Triomf
       </router-link>
-      <el-popover
-        ref="popover1"
-        popper-class="popover"
-        placement="bottom"
-        width="200"
-        trigger="hover"
-      >
-        <div class="popover-body">
-          Designed by Invision. Coded by Creative Tim
-        </div>
-      </el-popover>
     </template>
     <template slot="navbar-menu">
-      <drop-down tag="li" title="Sample Dropdown">
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <p>Inici</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <p>Serveis</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <p>Contacte</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <p>Sobre Nosaltres</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <p>Novetats</p>
+        </a>
+      </li>
+    </template>
+    <template slot="navbar-menu">
+      <drop-down tag="li" title="Català">
         <nav-link class="dropdown-item">
-          <i class="now-ui-icons shopping_box"></i> Headers
+          Català
+        </nav-link>
+        <nav-link class="dropdown-item">
+           Castellano
         </nav-link>
       </drop-down>
     </template>
