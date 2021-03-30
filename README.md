@@ -1,1 +1,1 @@
-Sample Vue JS website based on the template https://demos.creative-tim.com/vue-now-ui-kit/#/  
+Sample Vue JS website based on the template https://demos.creative-tim.com/vue-now-ui-kit/#/    
